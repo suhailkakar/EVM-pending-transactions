@@ -37,7 +37,7 @@ You need to have Node.js, and NPM installed on your computer, before running thi
    ```sh
    git clone https://github.com/suhailkakar/EVM-pending-transactions
    ```
-2. Install NPM packages
+2. Navigation to the newly created directory (`EVM-pending-transactions`) and install NPM packages
 
    ```sh
    npm install
@@ -49,7 +49,7 @@ You need to have Node.js, and NPM installed on your computer, before running thi
    yarn install
    ```
 
-3. create a file named `.env.local` 
+3. Create a file named `.env.local` in the root directory
 4. Add the following code inside  of  `.env.local` file
    ```sh
 	# Polygon Node (WSS)
@@ -60,7 +60,7 @@ You need to have Node.js, and NPM installed on your computer, before running thi
 9. Run the app
 
    ```sh
-   yarn dev
+   next dev
    ```
    
 

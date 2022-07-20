@@ -3,7 +3,16 @@ import { ethers } from "ethers";
 export const columns = [
   {
     name: "Hash",
-    selector: (row) => <a className="text-purple-900">{row.hash}</a>,
+    selector: (row) => (
+      <a
+        onClick={() => {
+          window.open(`https://polygonscan.com/tx/${row.hash}`);
+        }}
+        className="text-purple-900"
+      >
+        {row.hash}
+      </a>
+    ),
   },
   {
     name: "Gas Limit",

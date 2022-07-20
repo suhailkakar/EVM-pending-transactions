@@ -59,8 +59,15 @@ You need to have Node.js, and NPM installed on your computer, before running thi
 5. Replace `YOUR_POLYGON_NODE` with a live Polygon node (You can get one from [Chainstack](https://chainstack.com/build-better-with-polygon/))
 9. Run the app
 
+  
    ```sh
-   next dev
+   npm run dev
+   ```
+
+   or
+
+   ```sh
+   yarn dev
    ```
    
 

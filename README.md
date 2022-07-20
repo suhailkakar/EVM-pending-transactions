@@ -4,7 +4,7 @@
 <br />
 <div align="center">
 
-<h1 align="center">EVM-pending-transactions</h3>
+<h1 align="center">Pending EVM Transactions</h3>
 
 </div>
 
